@@ -12,5 +12,5 @@ print("Java version:",shutil.which("java"))
 
 import subprocess
 result = subprocess.run(["java","-version"], capture_output=True, text=True)
-print(result.stderr)
+print("JAVA: ",result.stderr)
 
