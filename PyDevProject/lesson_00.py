@@ -4,7 +4,7 @@ Created on Jan 2, 2026
 @author: henkt
 '''
 
-var1="Hello World!!"
+var1="Hello World !!"
 print(var1)
 
 import os
